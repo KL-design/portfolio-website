@@ -53,10 +53,10 @@ a:hover {
   font-weight: 600;
 }
 a:visited {
-  color: #fffcfa;
+  color: #1c1c1c;
 }
 a:active {
-  color: #fffcfa;
+  color: #1c1c1c;
 }
 .button {
   display: inline-block;
