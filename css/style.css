@@ -68,3 +68,77 @@ a:active {
   border-bottom: 2px solid #1c1c1c;
   transition: 0.2s opacity;
 }
+nav > ul > li > a:hover {
+  color: #995454;
+  text-decoration: underline;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+nav > ul > li > a:visited {
+  color: #1c1c1c;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+nav > ul > li > a:active {
+  color: #1c1c1c;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.socials {
+  max-width: 30px
+}
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+.row{
+  margin: 25px 0;
+}
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
+header {
+  background-color: #c2c2c2;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0px 6px 13px 0px rgba(50, 50, 50, 0.5);
+  position: fixed;
+  width: 100%
+}
+.logo {
+  max-width: 250px;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+nav {
+  display: inline-block;
+  width: 100%
+}
+#hero {
+  background-color: #c2c2c2;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+main{
+  padding-top: 103px
+}
+footer > ul {
+  list-style-type: none;
+  padding: 0;
+}
+footer > ul > li {
+  display: inline-block;
+}
