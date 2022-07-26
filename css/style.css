@@ -6,6 +6,9 @@ Tertiary Color (tan): #e5cdb0;
 Tertiary Color (light rose): #a16868;
 Tertiary Color (dark rose): #995454;
 */
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #fffcfa;
   font-family: 'Montserrat', sans-serif;
