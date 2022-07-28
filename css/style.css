@@ -92,6 +92,11 @@ nav > ul > li > a:active {
 .socials {
   max-width: 30px
 }
+.berlin-illustration {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
 /* Layout styling */
 .container {
   padding: 0 15px;
