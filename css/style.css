@@ -63,7 +63,9 @@ a:active {
   background-color: #a16868;
   color: #fffcfa;
   font-weight: 400;
+  text-decoration: none;
   padding: 10px;
+  margin: 15px 0;
   border-radius: 5px;
   border-bottom: 2px solid #1c1c1c;
   transition: 0.2s opacity;
