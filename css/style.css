@@ -147,6 +147,31 @@ footer > ul {
 footer > ul > li {
   display: inline-block;
 }
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+  color: #fffcfa;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(68,68,68,0.5);
+}
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
 @media only screen and (min-width: 641px) {
   header {
     text-align: unset;
@@ -182,6 +207,18 @@ footer > ul > li {
     content: "";
     clear: both;
     display: table;
+  }
+  nav > ul > li {
+    display: inline-block;
+  }
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+  }
+  .navtoggle li:last-child {
+  display: none;
+  }
+  nav > ul {
+    margin: 1em 0;
   }
 }
 @media only screen and (min-width: 1024px) {
