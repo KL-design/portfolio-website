@@ -133,10 +133,6 @@ nav > ul > li > a {
   font-weight: 700;
   color: #4a4a4a;
 }
-nav {
-  display: inline-block;
-  width: 100%
-}
 #hero {
   background-color: #c2c2c2;
   padding: 20px 0;
